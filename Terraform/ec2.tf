@@ -1,6 +1,6 @@
 resource "aws_key_pair" "deployer" {
     key_name = "terra-key"
-    public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFP26Gejg5zSV8N2kvn9flpSx+/6KUSvNwy9Sc+L5Vl4 lenovo@DESKTOP-SKI6JIM"
+    public_key = ""
 }
 
 resource "aws_default_vpc" "default" {
